@@ -1,0 +1,20 @@
+[project]
+name = "text-utilities"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ShreejeshG12", email = "129910787+ShreejeshG12@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pydantic>=2.14.3",
+    "ruff>=0.17.4",
+]
+
+[project.scripts]
+text-utilities = "text_utilities:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
